@@ -57,6 +57,30 @@ nav {
   transition: 0.2s;
 }
 
+.faq-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  background: rgba(154, 247, 138, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.faq-heading{
+  background-color: white;
+  width: 42.5%;
+  font-size: 40px;
+}
+.faq-overlay .faq-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .navbar-search-icon {
   font-size: 1.10rem;
 }
